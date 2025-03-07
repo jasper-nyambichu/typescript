@@ -26,7 +26,7 @@ const Message = () => {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.3 }}
             >
-              Count: {count}
+              count: {count}
             </motion.h1>
             <motion.button
               className="btn btn-primary mt-2"
